@@ -5,6 +5,7 @@
 	int endX = (int)((Math.random()*9));
 
 	int endY = (int)((Math.random()*18)-9)+150;
+
 void setup()
 {
   size(300,300);
@@ -23,6 +24,8 @@ void press()
 
 void line()
 {
+	stroke((int)((Math.random()*255)),(int)((Math.random()*255)),(int)((Math.random()*255)));
+	
 	line(startX,startY,endX,endY);
 
 	startX = endX;
@@ -33,4 +36,10 @@ void line()
 
 	endY += (int)((Math.random()*18)-9);
 }
+
+void shoot()
+{
+	
+}
+
 
