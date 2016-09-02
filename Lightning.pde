@@ -19,11 +19,11 @@ void draw()
 void press()
 {
 	if (mousePressed == true){
-		line();
+		sexy();
 	}
 }
 
-void line()
+void sexy()
 {
 	stroke((int)((Math.random()*255)),(int)((Math.random()*255)),(int)((Math.random()*255)));
 	
