@@ -37,9 +37,4 @@ void line()
 	endY += (int)((Math.random()*18)-9);
 }
 
-void shoot()
-{
-	
-}
-
 
