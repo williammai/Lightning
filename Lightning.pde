@@ -9,6 +9,7 @@
 void setup()
 {
   size(300,300);
+  background(90,50,160);
 }
 void draw()
 {
